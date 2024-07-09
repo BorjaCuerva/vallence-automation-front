@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div>Initial Page</div>
+  <div>{{ $t('PRINCIPAL_TITLE') }}</div>
 </template>
 
-<style scoped lang="scss"></style>
+<!-- <style scoped lang="scss"></style> -->
