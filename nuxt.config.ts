@@ -10,7 +10,8 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@use "sass:map"; @import "assets/styles/scss/mixin.scss";',
+          additionalData:
+            '@use "sass:map"; @import "assets/styles/scss/variables.scss"; @import "assets/styles/scss/mixin.scss";',
         },
       },
     },

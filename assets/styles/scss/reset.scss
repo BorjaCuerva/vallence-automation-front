@@ -152,7 +152,7 @@ svg {
 body {
   max-width: 120rem;
   margin: auto;
-  background-color: #142b73;
+  background-color: map.get($catalina-blue, 950);
   color: #fff;
   min-height: 100vh;
   font-size: 100%;
@@ -163,7 +163,7 @@ body {
   width: 0.4375em;
   height: auto;
   border-radius: 0.25em;
-  background-color: #142b73;
+  background-color: map.get($catalina-blue, 950);
   @media (max-width: 53.625em) {
     width: 0;
   }
@@ -171,7 +171,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   width: 100%;
-  background: #95d904;
+  background: map.get($atlantis, 500);
   border-radius: 0.25em;
 
   @media (max-width: 53.625em) {
