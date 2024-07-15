@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import WhatsappBot from '@/components/common/WhatsappBot.vue'
 const MainNavar = defineAsyncComponent(() => import('@/components/common/MainNavbar.vue'))
 </script>
 
@@ -6,5 +7,6 @@ const MainNavar = defineAsyncComponent(() => import('@/components/common/MainNav
   <section>
     <MainNavar />
     <slot />
+    <WhatsappBot />
   </section>
 </template>
