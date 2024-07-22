@@ -19,7 +19,7 @@ import GreenCheck from '@/components/svg/GreenCheck.vue'
   @include flex(column, flex-start);
   padding: 1.5rem;
   border-radius: 0.625rem;
-  background-color: map.get($catalina-blue, 800);
+  background-color: map.get($catalina-blue, 900);
 
   &__icon {
     margin-bottom: 1.5rem;
