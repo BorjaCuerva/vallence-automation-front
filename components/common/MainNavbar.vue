@@ -1,33 +1,32 @@
-<script setup lang="ts">
-import { STORE_SLUGS } from '@/constants/navbarItem'
+<script setup>
+import LogoSvg from '../svg/LogoSvg.vue'
 </script>
 <template>
-  <nav class="dark:bg-black fixed w-full z-20 top-0 start-0 border-b">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+  <div
+    class="mx-auto left-1/2 z-50 -translate-x-1/2 -translate-y-1/2 md:px-6 text-default rounded-2xl mt-10 fixed max-w-6xl md:grid md:grid-cols-3 md:items-center px-3 py-3 w-full bg-white dark:bg-gray-800 dark:text-white"
+  >
+    <div class="flex justify-between">
       <NuxtLink href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <NuxtImg
-          src="https://flowbite.com/docs/images/logo.svg"
-          class="h-8"
-          alt="Vallence automation"
-        />
+        <LogoSvg />
       </NuxtLink>
-      <div
-        class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-        id="navbar-sticky"
-      >
-        <ul
-          class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:dark:bg-black"
+    </div>
+    <nav
+      aria-label="Main navigation"
+      class="items-center md:w-auto w-full hidden md:flex md:justify-self-center md:mx-5 md:overflow-x-auto md:overflow-y-visible overflow-x-hidden overflow-y-auto text-default"
+    ></nav>
+    <div
+      class="items-center md:w-auto w-full hidden md:flex bottom-0 fixed justify-end left-0 md:justify-self-end md:mb-0 md:p-0 md:self-center md:static p-3 rtl:left-auto rtl:right-0"
+    >
+      <div class="flex items-center justify-between md:w-auto w-full">
+        <span class="rtl:ml-0 ml-4 rtl:mr-4"
+          ><NuxtLink
+            to="/contacto"
+            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+          >
+            {{ $t('NAVBAR.CONTACT') }}
+          </NuxtLink></span
         >
-          <li v-for="links in STORE_SLUGS">
-            <NuxtLink
-              :to="links.slug"
-              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            >
-              {{ links.name }}
-            </NuxtLink>
-          </li>
-        </ul>
       </div>
     </div>
-  </nav>
+  </div>
 </template>

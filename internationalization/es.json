@@ -1,12 +1,14 @@
 {
-  "PRINCIPAL_TITLE": "Bienvenido a la página principal",
   "ERROR": {
     "NOT_FOUND": "No se ha encontrado la página",
     "BUTTON": "Volver a la página principal"
   },
   "NAVBAR": {
-    "HOME": "Link 1",
-    "ABOUT": "Link 2",
-    "CONTACT": "Link 3"
+    "HOME": "/",
+    "CONTACT": "Contacto"
+  },
+  "HERO": {
+    "TITLE": "Vallence Automation",
+    "SUBTITLE": "Soluciones de automatización industrial para la industria"
   }
 }
