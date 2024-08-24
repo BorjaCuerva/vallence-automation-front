@@ -157,7 +157,7 @@ svg {
 body {
   max-width: 120rem;
   margin: auto;
-  background-color: map.get($catalina-blue, 950);
+  background-color: map.get($colors, c-black);
   font-family: 'Poppins', sans-serif;
   color: #fff;
   min-height: 100vh;
@@ -169,7 +169,7 @@ body {
   width: 0.4375em;
   height: auto;
   border-radius: 0.25em;
-  background-color: map.get($catalina-blue, 950);
+  background-color: map.get($colors, c-black);
   @media (max-width: 53.625em) {
     width: 0;
   }
@@ -177,7 +177,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
   width: 100%;
-  background: map.get($atlantis, 500);
+  background: map.get($atlantis, 600);
   border-radius: 0.25em;
 
   @media (max-width: 53.625em) {

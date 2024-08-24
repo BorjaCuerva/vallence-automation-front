@@ -14,6 +14,7 @@ import CardsGrid from './CardsGrid.vue'
   padding: 0 9.4688rem;
   display: grid;
   gap: 3.75rem;
+  margin: 0 0 4em;
 
   @include responsive() {
     padding: 0 1em;
