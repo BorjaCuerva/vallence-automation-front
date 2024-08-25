@@ -1,10 +1,17 @@
 <script setup lang="ts">
-import HeadederOfGrid from './HeaderOfGrid.vue'
+import HeaderOfGrid from '@/components/common/HeaderOfGrid.vue'
 import CardsGrid from './CardsGrid.vue'
 </script>
 <template>
   <section class="grid-block">
-    <HeadederOfGrid />
+    <HeaderOfGrid
+      v-bind="{
+        preTitle: 'COMPONENTS',
+        title: 'Most used widgets',
+        postTitle:
+          'Provides frequently used components for building websites using Tailwind CSS',
+      }"
+    />
     <CardsGrid />
   </section>
 </template>

@@ -1,11 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps<{ preTitle: string; title: string; postTitle?: string }>()
+</script>
 <template>
   <header class="header-grid">
-    <span class="header-grid__pre-title">COMPONENTS</span>
-    <h2 class="header-grid__title">Most used widgets</h2>
-    <span class="header-grid__post-title"
-      >Provides frequently used components for building websites using Tailwind CSS
-    </span>
+    <span class="header-grid__pre-title" v-if="preTitle">{{ preTitle }}</span>
+    <h2 class="header-grid__title" v-if="title">{{ title }}</h2>
+    <span class="header-grid__post-title" v-if="postTitle">{{ postTitle }} </span>
   </header>
 </template>
 
