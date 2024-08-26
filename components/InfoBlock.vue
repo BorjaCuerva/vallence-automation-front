@@ -2,7 +2,7 @@
 <template>
   <section class="relative not-prose scroll-mt-[72px]">
     <div class="inset-0 absolute pointer-events-none -z-[1]" aria-hidden="true">
-      <div class="inset-0 absolute bg-blue-50 dark:bg-transparent"></div>
+      <div class="inset-0 absolute bg-black dark:bg-transparent"></div>
     </div>
     <div
       class="relative mx-auto px-4 lg:py-20 md:px-6 md:py-16 py-12 text-default max-w-7xl"
