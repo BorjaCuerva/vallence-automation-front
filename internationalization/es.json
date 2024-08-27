@@ -20,5 +20,44 @@
     "PRE_TITLE": "FAQs",
     "TITLE": "Frequently Asked Questions",
     "POST_TITLE": "Dive into the following questions to gain insights into the powerful features that AstroWind offers and how it can elevate your web development journey."
+  },
+  "STEPS": {
+    "TITLE": "Get your dream website up and running in no time with AstroWind.",
+    "ITEMS": [
+      {
+        "TITLE": [
+          "Step 1:",
+          "Download"
+        ],
+        "DESCRIPTION": "Kickstart with GitHub! Either fork the AstroWind template or simply click 'Use this template'. Your canvas awaits, ready for your digital masterpiece. In just a few clicks, you've already set the foundation.",
+        "ICON": "tabler:package"
+      },
+      {
+        "TITLE": [
+          "Step 2:",
+          "Add content"
+        ],
+        "DESCRIPTION": "Pour your vision into it. Add images, text, and all that jazz to breathe life into your digital space. Remember, it's the content that tells your story, so make it captivating.",
+        "ICON": "tabler:letter-case"
+      },
+      {
+        "TITLE": [
+          "Step 3:,",
+          "Customize styles"
+        ],
+        "DESCRIPTION": "Give it your personal touch. Tailor colors, fonts, and layouts until it feels just right. Your unique flair, amplified by AstroWind! Precision in design ensures a seamless user experience.",
+        "ICON": "tabler:paint"
+      },
+      {
+        "TITLE": [
+          "Ready!"
+        ],
+        "ICON": "tabler:check"
+      }
+    ],
+    "IMAGE": {
+      "SRC": "https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+      "ALT": "Steps image"
+    }
   }
 }
