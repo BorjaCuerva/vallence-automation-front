@@ -99,6 +99,7 @@ const SECTIONSFAQ = [
       postTitle: $t('FAQS_GRID.POST_TITLE'),
     }"
   />
+  <Steps />
 </template>
 
 <!-- <style scoped lang="scss"></style> -->
