@@ -1,17 +1,16 @@
 <script setup lang="ts">
+import type { Section } from '@/interfaces/sections'
 import HeaderOfGrid from '@/components/common/HeaderOfGrid.vue'
 import TextGrid from '@/components/textGrid/TextGrid.vue'
+defineProps<{
+  sections: Array<Section>
+  headerData: { preTitle: string; title: string; postTitle?: string }
+}>()
 </script>
 <template>
   <section class="grid-block">
-    <HeaderOfGrid
-      v-bind="{
-        preTitle: $t('TEXT_GRID.PRE_TITLE'),
-        title: $t('TEXT_GRID.TITLE'),
-        postTitle: $t('TEXT_GRID.POST_TITLE'),
-      }"
-    />
-    <TextGrid class="grid-block__grid" />
+    <HeaderOfGrid v-bind="headerData" />
+    <TextGrid class="grid-block__grid" :sections="sections" />
   </section>
 </template>
 
