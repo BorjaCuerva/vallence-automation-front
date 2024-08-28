@@ -8,8 +8,8 @@ defineProps<{ image: string; title: string; description: string }>()
       <GreenCheck></GreenCheck>
     </div>
     <div class="text-section__texts">
-      <h2 class="text-section__title">{{ title }}</h2>
-      <p class="text-section__description">{{ description }}</p>
+      <h2 class="text-section__title">{{ $rt(title) }}</h2>
+      <p class="text-section__description">{{ $rt(description) }}</p>
     </div>
   </article>
 </template>
