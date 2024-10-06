@@ -1,25 +1,20 @@
 <script setup lang="ts">
 import GreenCheck from '@/components/svg/GreenCheck.vue'
+defineProps<{ image: string }>()
 </script>
 <template>
-  <article class="card">
-    <div class="card__icon">
-      <GreenCheck></GreenCheck>
-    </div>
-    <h3 class="card__title">Features</h3>
-    <p class="card__description">
-      Where websites strut their stuff and show off superpowers. No holding back on the
-      bragging rights here!
-    </p>
-  </article>
+  <article :style="`background-image: url('${image}')`" class="card"></article>
 </template>
 
 <style scoped lang="scss">
 .card {
+  background-repeat: no-repeat;
+  background-size: cover;
   @include flex(column, flex-start);
   padding: 1.5rem;
   border-radius: 0.625rem;
   background-color: map.get($catalina-blue, 900);
+  min-height: 20em;
 
   &__icon {
     margin-bottom: 1.5rem;

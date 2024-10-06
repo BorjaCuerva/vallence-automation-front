@@ -4,9 +4,6 @@ defineProps<{ image: string; title: string; description: string }>()
 </script>
 <template>
   <article class="text-section">
-    <div class="text-section__image">
-      <GreenCheck></GreenCheck>
-    </div>
     <div class="text-section__texts">
       <h2 class="text-section__title">{{ $rt(title) }}</h2>
       <p class="text-section__description">{{ $rt(description) }}</p>

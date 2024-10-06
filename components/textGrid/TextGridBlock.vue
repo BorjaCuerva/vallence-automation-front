@@ -16,7 +16,7 @@ defineProps<{
 
 <style scoped lang="scss">
 .grid-block {
-  padding: 0 9.4688rem;
+  padding: 1.5rem 9.4688rem;
   @include responsive() {
     padding: 0 1em;
   }
