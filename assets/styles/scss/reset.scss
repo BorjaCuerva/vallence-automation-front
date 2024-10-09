@@ -76,6 +76,7 @@ html {
 h1 {
   font-size: 3rem;
   text-wrap: balance;
+  color: map.get($colors, c-black);
   @include responsive() {
     font-size: 1.5rem;
   }
@@ -83,7 +84,7 @@ h1 {
 h2 {
   font-size: 2rem;
   text-wrap: balance;
-
+  color: map.get($colors, c-black);
   @include responsive() {
     font-size: 1.5rem;
   }
@@ -91,6 +92,7 @@ h2 {
 h3 {
   font-size: 1rem;
   text-wrap: balance;
+  color: map.get($colors, c-black);
 }
 h4,
 h5,
@@ -111,6 +113,7 @@ em {
 
 p {
   font-size: 1rem;
+  color: map.get($colors, c-black);
   text-wrap: pretty;
 
   @include responsive() {
@@ -157,7 +160,7 @@ svg {
 body {
   max-width: 120rem;
   margin: auto;
-  background-color: map.get($colors, c-black);
+  background-color: map.get($colors, c-white);
   font-family: 'Poppins', sans-serif;
   color: #fff;
   min-height: 100vh;
@@ -169,7 +172,7 @@ body {
   width: 0.4375em;
   height: auto;
   border-radius: 0.25em;
-  background-color: map.get($colors, c-black);
+  background-color: map.get($colors, c-white);
   @media (max-width: 53.625em) {
     width: 0;
   }
