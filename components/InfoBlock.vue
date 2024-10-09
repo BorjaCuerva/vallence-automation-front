@@ -140,3 +140,12 @@
     </div>
   </section>
 </template>
+
+<style scoped lang="scss">
+.not-prose {
+  background-color: map.get($colors, c-white);
+}
+.mb-12 {
+  color: map.get($colors, c-black);
+}
+</style>

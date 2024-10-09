@@ -14,3 +14,12 @@ import InfoIcon from '../svg/InfoIcon.vue'
     </div>
   </section>
 </template>
+
+<style scoped lang="scss">
+.not-prose {
+  background-color: map.get($colors, c-white);
+}
+.font-medium {
+  color: map.get($colors, c-black);
+}
+</style>
