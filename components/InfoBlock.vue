@@ -11,16 +11,13 @@
         <p
           class="font-bold dark:text-blue-200 text-base text-secondary tracking-wide uppercase"
         ></p>
-        <h2
-          class="font-bold font-heading leading-tighter tracking-tighter text-heading mb-4 text-4xl md:text-5xl"
-        ></h2>
       </div>
       <div class="mx-auto max-w-7xl md:px-8 p-4">
         <div class="md:flex md:gap-16 md:flex-row-reverse">
           <div class="md:basis-1/2 self-center">
             <div class="mb-12 dark:text-slate-400 text-lg">
               <h3
-                class="font-bold dark:text-white text-2xl mb-2 sm:text-3xl tracking-tight"
+                class="font-bold text-atlantis-500 text-4xl mb-2 sm:text-1xl tracking-tight"
               >
                 Soluciones Globales para Mantener sus Operaciones en Movimiento
               </h3>
@@ -32,7 +29,7 @@
                 <div class="flex flex-row max-w-none">
                   <div class="flex justify-center">
                     <svg
-                      class="flex justify-center items-center bg-green-600 dark:bg-green-700 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
+                      class="flex justify-center items-center bg-atlantis-500 dark:bg-atlantis-500 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
                       data-icon="tabler:check"
                       height="1em"
                       viewBox="0 0 24 24"
@@ -43,11 +40,11 @@
                   </div>
                   <div class="mt-0.5">
                     <h3
-                      class="font-medium dark:text-white leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
+                      class="font-semibold dark:text-black leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
                     >
                       Impacto de las Fallas en la Producción
                     </h3>
-                    <p class="text-muted mt-3 dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">
+                    <p class="text-muted mt-3 dark:text-slate-700 ml-2 rtl:ml-0 rtl:mr-2">
                       Las fallas en las máquinas y los periodos de inactividad no solo
                       interrumpen la producción, sino que también pueden resultar en
                       pérdidas millonarias para las empresas.
@@ -59,7 +56,7 @@
                 <div class="flex flex-row max-w-none">
                   <div class="flex justify-center">
                     <svg
-                      class="flex justify-center items-center bg-green-600 dark:bg-green-700 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
+                      class="flex justify-center items-center bg-atlantis-500 dark:bg-atlantis-500 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
                       data-icon="tabler:check"
                       height="1em"
                       viewBox="0 0 24 24"
@@ -70,11 +67,11 @@
                   </div>
                   <div class="mt-0.5">
                     <h3
-                      class="font-medium dark:text-white leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
+                      class="font-semibold dark:text-black leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
                     >
                       Suministro Global de Piezas de Automatización
                     </h3>
-                    <p class="text-muted mt-3 dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">
+                    <p class="text-muted mt-3 dark:text-slate-700 ml-2 rtl:ml-0 rtl:mr-2">
                       Le ofrecemos acceso a un suministro global de piezas de
                       automatización, garantizando que los fabricantes de todo el mundo
                       puedan mantener sus líneas de producción operativas sin
@@ -87,7 +84,7 @@
                 <div class="flex flex-row max-w-none">
                   <div class="flex justify-center">
                     <svg
-                      class="flex justify-center items-center bg-green-600 dark:bg-green-700 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
+                      class="flex justify-center items-center bg-atlantis-500 dark:bg-atlantis-500 h-7 mr-2 p-1 rounded-full rtl:ml-2 rtl:mr-0 text-gray-50 w-7"
                       data-icon="tabler:check"
                       height="1em"
                       viewBox="0 0 24 24"
@@ -98,11 +95,11 @@
                   </div>
                   <div class="mt-0.5">
                     <h3
-                      class="font-medium dark:text-white leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
+                      class="font-semibold dark:text-black leading-6 ml-2 rtl:ml-0 rtl:mr-2 text-lg"
                     >
                       Amplio inventario y búsqueda de piezas a nivel mundial
                     </h3>
-                    <p class="text-muted mt-3 dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2">
+                    <p class="text-muted mt-3 dark:text-slate-700 ml-2 rtl:ml-0 rtl:mr-2">
                       Almacenamos miles de componentes de automatización y control de los
                       principales OEM. Si no tuviésemos un producto en existencias,
                       nuestro equipo multilingüe peinaría el planeta para encontrar la
