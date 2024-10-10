@@ -22,7 +22,6 @@ const SECTIONS = computed(() => tm('TEXT_GRID.SECTIONS') as Section[])
       postTitle: $t('TEXT_GRID.POST_TITLE'),
     }"
   />
-  <SeparatorBar />
   <CardsBlock />
   <InfoBlock />
   <TextGridBlock
@@ -33,7 +32,7 @@ const SECTIONS = computed(() => tm('TEXT_GRID.SECTIONS') as Section[])
       postTitle: $t('FAQS_GRID.POST_TITLE'),
     }"
   />
-  <Steps />
+  <SeparatorBar />
 </template>
 
 <!-- <style scoped lang="scss"></style> -->

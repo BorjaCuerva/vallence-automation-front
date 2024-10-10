@@ -1,9 +1,19 @@
 <script setup lang="ts">
 import GridCard from './GridCard.vue'
+const IMAGES = [
+  '/images/pexels-hyundaimotorgroup-19233057.jpg',
+  '/images/pexels-hyundaimotorgroup-19319639.jpg',
+  '/images/pexels-ludodelot-18471441.jpg',
+  '/images/pexels-ludodelot-18471537.jpg',
+  '/images/pexels-ludodelot-18471551.jpg',
+  '/images/pexels-pavel-danilyuk-8438918.jpg',
+  '/images/pexels-pavel-danilyuk-8439008.jpg',
+  '/images/pexels-pavel-danilyuk-8439093.jpg',
+]
 </script>
 <template>
   <section class="cards-grid">
-    <GridCard v-for="i in 9" />
+    <GridCard v-for="IMAGE in IMAGES" :image="IMAGE" />
   </section>
 </template>
 

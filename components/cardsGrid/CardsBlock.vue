@@ -6,10 +6,9 @@ import CardsGrid from './CardsGrid.vue'
   <section class="grid-block">
     <HeaderOfGrid
       v-bind="{
-        preTitle: 'COMPONENTS',
-        title: 'Most used widgets',
-        postTitle:
-          'Provides frequently used components for building websites using Tailwind CSS',
+        preTitle: '',
+        title: 'Marcas',
+        postTitle: '',
       }"
     />
     <CardsGrid />

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import WhatsappIcon from '@/components/svg/WhatsappIcon.vue'
-const phone = ''
-const message = ''
+const phone = '34919996507'
+const message = '¿Busca una pieza de automatización y control?'
 </script>
 <template>
   <a
